@@ -18,7 +18,7 @@
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     --bg:#0f1628; --surface:#18213a; --ink:#eef2fb; --muted:#a3afc9;
-    --accent:#7c9bff; --accent-ink:#0f1628; --mark:#ffd84d; --line:#2b3757;
+    --accent:#7c9bff; --accent-ink:#0f1628; --mark:#21da84; --line:#2b3757;
     color-scheme:dark;
   }
 }
@@ -39,7 +39,7 @@ h1,h2{font-family:"Unbounded","Onest",system-ui,sans-serif; line-height:1.1; mar
 h1{font-size:clamp(2.6rem,11vw,5rem); font-weight:800; letter-spacing:-0.02em}
 h2{font-size:1.25rem; font-weight:600; margin-bottom:1rem}
 .lead{font-size:1.25rem; max-width:34rem; margin:1.25rem 0 0}
-.lead mark{background:linear-gradient(transparent 55%,var(--mark) 55%); color:inherit; padding:0 .1em}
+.lead mark{background:linear-gradient(transparent 1%,var(--mark) 95%); color:inherit; padding:0 .1em}
 section{margin-top:3.5rem}
 p{margin:0 0 1rem; max-width:38rem}
 .about{border-left:4px solid var(--accent); padding-left:1.1rem}
@@ -70,7 +70,7 @@ p{margin:0 0 1rem; max-width:38rem}
 <main>
   <header>
     <h1>Эльхан</h1>
-    <p class="lead">Школьник из Комрата. Учусь делать сайты и хочу стать <mark>full-stack разработчиком</mark>.</p>
+    <p class="lead">Школьник из Комрата. Учусь делать сайты и хочу стать <mark>full-stack разработчиком</marks>.</p>
   </header>
 
   <section class="about">
